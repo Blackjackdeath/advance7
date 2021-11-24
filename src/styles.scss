@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+table,tr,td{
+    border: 1px solid black;
+}
+table{
+    border-collapse: collapse;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

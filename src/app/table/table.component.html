@@ -1,0 +1,8 @@
+<table>
+    <tr  [style.backgroundColor]="check(item)"  *ngFor="let item of arr" >
+        <td class="name">{{item.name}}</td>
+        <td class="price">{{item.price}}</td>
+        <td class="date">{{item.expirationDate}}</td>
+        <td class="category">{{item.category}}</td>
+     </tr>
+</table>
